@@ -23,7 +23,7 @@ Compile
     3. mbed compile --library --no-archive -t GCC_ARM -m B_L4S5I_IOT01A --build ~/ee2405new/mbed-os-build2 (這一步要在ee2405new裡面做)
     4. sudo mbed compile --source . --source ~/ee2405new/mbed-os-build2/ -m B_L4S5I_IOT01A -t GCC_ARM -f 去compile作業3
     5. sudo screen /dev/ttyACM0
-    6. Open the other terminal to finish connect
+    6. Open the other terminal to finish connect:
        sudo python3 wifi_mqtt/mqtt_client.py
     
 How to run
