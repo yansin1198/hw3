@@ -55,7 +55,7 @@ Results
     3.After press user button
    ![image](https://user-images.githubusercontent.com/59250738/117927474-d47fa480-b32c-11eb-9d10-987680104c4f.png)
 
-    4.Back to RPC loop, After type RPC Angle command: /tiltAngleControl/run 1
+    4.Back to RPC loop, then type RPC Angle command: /tiltAngleControl/run 1
    ![image](https://user-images.githubusercontent.com/59250738/117927518-e3feed80-b32c-11eb-9844-fc1aa0917bee.png)
 
     5.After tilt mbed
@@ -64,7 +64,7 @@ Results
     6.When tilt angle larger than choose angle, send tilt angle to PC
    ![image](https://user-images.githubusercontent.com/59250738/117927562-f2e5a000-b32c-11eb-9ad3-af9e3ecb0930.png)
 
-    7.After get 10 events, back to RPC loop
+    7.After get 11 events (number 0~10 event), back to RPC loop
 
     
 
