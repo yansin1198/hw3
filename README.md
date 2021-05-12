@@ -5,12 +5,15 @@ Setup
     1.Download Files or git clone https://github.com/yansin1198/hw3.git
     2.In the file, add "4DGL-uLCD-SE" library: 
       git clone https://gitlab.larc-nthu.net/ee2405_2021/4dgl-ulcd-se.git
-    3.In the file, add RPC Library: 
+    3.In the file, add a library for decoding: (BSP library is also needed)
+      mbed add https://gitlab.larc-nthu.net/ee2405_2021/tensorflowlite_mbed
+      $ cp -r ~/ee2405/<library路徑>/src/data_collect/BSP_B-L475E-IOT01.
+    4.In the file, add RPC Library: 
       mbed add https://gitlab.larc-nthu.net/ee2405_2021/mbed_rpc.git
-    4.In the file, add MQTT: 
+    5.In the file, add MQTT: 
       mbed add https://gitlab.larc-nthu.net/ee2405_2019/wifi_mqtt.git
-    5.Modify mbed_app.json contents (SSID、PSSWORD)
-    6.Modify main.cpp and mqtt_client.py IP address
+    6.Modify mbed_app.json contents (SSID、PSSWORD)
+    7.Modify main.cpp and mqtt_client.py IP address
     
 Compile
     
