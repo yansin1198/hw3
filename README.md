@@ -39,4 +39,4 @@ How to run
     9.開始測量角度是否超過選擇的angle
     10.如果超過，LED3會亮
     11.同時測量到的角度會傳到PC
-    12.待PC收到10個events之後，結束這個mode，返回RPC loop
+    12.待PC收到10個events之後，LED2及LED3熄滅，結束這個mode，返回RPC loop
